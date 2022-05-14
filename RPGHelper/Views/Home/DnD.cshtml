@@ -1,0 +1,47 @@
+﻿@{
+    ViewData["Title"] = "Dungeons & Dragons";
+}
+<link rel="stylesheet" href="~/css/sidenav.css" asp-append-version="true" />
+<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+<script src="~/js/sidenav.js" asp-append-version="true"></script>
+
+ <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#players">Players</a>
+  <a href="#skills">Skills</a>
+  <a href="#combat">Combat</a>
+  <a href="#items">Items</a>
+  <a href="#magic">Magic</a>
+  <a href="#npcs">NPCs</a>
+  <a href="#monsters">Monsters</a>
+</div>
+
+<!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+<div id="main">
+    <!-- Use any element to open the sidenav -->
+    <div id="menuicon"></div>
+    <img class="logo" src= "~/images/DnD-Symbol.png" alt="Dungeons & Dragons" />
+    <div class="content">
+        <div class="content-page" id="players">
+            Some Player Info
+        </div>
+        <div class="content-page" id="skills">
+            Some Skill Tables
+        </div>
+        <div class="content-page" id="combat">
+            Some Combat Tables
+        </div>
+        <div class="content-page" id="items">
+            Some Item Tables
+        </div>
+        <div class="content-page" id="magic">
+            Some Magic Tables
+        </div>
+        <div class="content-page" id="npcs">
+            Some NPC Info
+        </div>
+        <div class="content-page" id="monsters">
+            Some Monster Tables
+        </div>
+    </div>
+</div> 
